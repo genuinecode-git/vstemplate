@@ -1,0 +1,24 @@
+﻿global using Application.API.Extentions.ExtentionHelpers;
+global using Application.API.Extentions;
+global using Application.API.Application.Mappings;
+global using Application.Infrastructure.Data;
+global using Application.API.Application.Models.ViewModels;
+global using Application.Infrastructure;
+global using Application.Domain.Entities;
+global using Application.Domain.Interfaces;
+global using Application.Infrastructure.Repositories;
+global using Application.API.Application.Commands;
+global using Application.API.Application.Queries.Base;
+global using Application.API.Application.Queries;
+
+global using Microsoft.AspNetCore.Mvc;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using System.Net;
+global using System.Text.Json;
+global using System.Reflection;
+global using Serilog;
+global using AutoMapper;
+global using Dapper;
+global using Microsoft.Data.SqlClient;
+global using System.Data;

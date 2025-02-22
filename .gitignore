@@ -6,3 +6,13 @@
 /WebApplication1/.vs/Application/v17
 /.vs/Template/v17
 /.vs
+/Application/.vs
+/Application/Application.API/bin/Debug/net8.0
+/Application/Application.API/Logs
+/Application/Application.API/obj
+/Application/Application.Domain/bin/Debug/net8.0
+/Application/Application.Domain/obj/Debug/net8.0
+/Application/Application.Infrastructure/bin/Debug/net8.0
+/Application/Application.Infrastructure/obj
+/Application/Application.Test/bin/Debug/net8.0
+/Application/Application.Test/obj
