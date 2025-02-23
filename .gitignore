@@ -16,3 +16,11 @@
 /Application/Application.Infrastructure/obj
 /Application/Application.Test/bin/Debug/net8.0
 /Application/Application.Test/obj
+/Application/Application.Services/obj/Debug/net8.0/Application.Services.AssemblyInfoInputs.cache
+/Application/Application.Services/obj/Debug/net8.0/Application.Services.assets.cache
+/Application/Application.Services/obj/Debug/net8.0/Application.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Application/Application.Services/obj/Application.Services.csproj.nuget.dgspec.json
+/Application/Application.Services/obj/Application.Services.csproj.nuget.g.props
+/Application/Application.Services/obj/Application.Services.csproj.nuget.g.targets
+/Application/Application.Services/obj/project.assets.json
+/Application/Application.Services/obj/project.nuget.cache
