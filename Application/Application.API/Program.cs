@@ -17,7 +17,7 @@ public class Program
 
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-        string readConnectionString = builder.Configuration.GetConnectionString("ReadOnlyConnection");
+        string readConnectionString = builder.Configuration.GetConnectionString("ReadOnlyConnection")??"";
 
         builder.Services.AddMediator();
         builder.Services.AddInfrastructure();
@@ -38,11 +38,9 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        else
-        {
-            app.UseGlobalExceptionHandler();
-        }
 
+        app.UseGlobalExceptionHandler();
+        
         app.UseHttpsRedirection();
 
         app.UseAuthorization();

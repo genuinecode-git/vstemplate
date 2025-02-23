@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.API", "Application.API\Application.API.csproj", "{A7C428C8-302A-42B1-8514-89910ECB8857}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Domain", "Application.Domain\Application.Domain.csproj", "{2E08B304-7533-4E64-9DCD-BD09510A7317}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Infrastructure", "Application.Infrastructure\Application.Infrastructure.csproj", "{F9EC9A8C-C9BF-4584-B247-9D217A08B085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "Application.Services\Application.Services.csproj", "{A363F379-57CF-4A8C-93BD-08A44FDD537F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{F9EC9A8C-C9BF-4584-B247-9D217A08B085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9EC9A8C-C9BF-4584-B247-9D217A08B085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9EC9A8C-C9BF-4584-B247-9D217A08B085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A363F379-57CF-4A8C-93BD-08A44FDD537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A363F379-57CF-4A8C-93BD-08A44FDD537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A363F379-57CF-4A8C-93BD-08A44FDD537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A363F379-57CF-4A8C-93BD-08A44FDD537F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		{A7C428C8-302A-42B1-8514-89910ECB8857} = {B03E8461-696B-4910-ACE3-A232F4574424}
 		{2E08B304-7533-4E64-9DCD-BD09510A7317} = {B03E8461-696B-4910-ACE3-A232F4574424}
 		{F9EC9A8C-C9BF-4584-B247-9D217A08B085} = {B03E8461-696B-4910-ACE3-A232F4574424}
+		{A363F379-57CF-4A8C-93BD-08A44FDD537F} = {B03E8461-696B-4910-ACE3-A232F4574424}
 	EndGlobalSection
 EndGlobal

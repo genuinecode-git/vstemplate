@@ -10,6 +10,9 @@ global using Application.Infrastructure.Repositories;
 global using Application.API.Application.Commands;
 global using Application.API.Application.Queries.Base;
 global using Application.API.Application.Queries;
+global using Application.API.Application.Models;
+global using Application.API.Application.Validations;
+global using Application.API.Behaviours;
 
 global using Microsoft.AspNetCore.Mvc;
 global using MediatR;
@@ -22,3 +25,5 @@ global using AutoMapper;
 global using Dapper;
 global using Microsoft.Data.SqlClient;
 global using System.Data;
+global using FluentValidation;
+

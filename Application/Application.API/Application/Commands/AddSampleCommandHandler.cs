@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-
-namespace Application.API.Application.Commands;
+﻿namespace Application.API.Application.Commands;
 
 public class AddSampleCommandHandler(IUnitOfWork unitOfWork,
     IMapper mapper,
