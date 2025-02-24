@@ -32,13 +32,13 @@ This is a .NET Core solution template for a Microservice API using CQRS architec
 3. Run
 ```powershell
 dotnet new --install .
-
+```
 
 ### After Install use
 
 ```powershell
 dotnet new MicroserviceAPI -n <YourSolutionName>
-
+```
 #### In Visual Studio
 
 ![Alt Text](https://github.com/genuinecode-git/vstemplate/blob/main/Application/VisualStudio.PNG)
