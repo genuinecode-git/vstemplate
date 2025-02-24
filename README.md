@@ -10,12 +10,31 @@ This is a .NET Core solution template for a Microservice API using CQRS architec
 - **NUnit** for unit testing
 - **Web API** interface
 
+## Project Structure
+
+📂 ApplicationTemplate
+ ├── 📂 src
+    ├── 📂 ApplicationTemplate.API            # ASP.NET Core Web API
+    ├── 📂 ApplicationTemplate.Domain         # Domain models
+    ├── 📂 ApplicationTemplate.Infrastructure # Data access (EF Core)
+ ├── 📂 ApplicationTemplate.Tests          # NUnit test project
+ ├── 🗂️ ApplicationTemplate.sln
+
+
 ---
 
 ## 🚀 Installation
 
 ### **1️⃣ Install the Template**
-Run the following command to install this template:
 
+1. Clone the repository
+2. Open Application foler (cd application)
+3. Run
 ```powershell
 dotnet new --install .
+
+
+### After Install use
+
+```powershell
+dotnet new MicroserviceAPI -n <YourSolutionName>
