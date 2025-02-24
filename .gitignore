@@ -36,3 +36,4 @@
 /Application/ApplicationTemplate.Services/obj
 /Application/ApplicationTemplate.Test/bin/Debug/net8.0
 /Application/ApplicationTemplate.Test/obj
+/Application/ApplicationTemplate.API/ApplicationTemplate.API.csproj.user
