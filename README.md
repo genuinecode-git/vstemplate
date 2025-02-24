@@ -14,9 +14,9 @@ This is a .NET Core solution template for a Microservice API using CQRS architec
 
 📂 ApplicationTemplate <br>
  ├── 📂 src <br>
-    ├── 📂 ApplicationTemplate.API            # ASP.NET Core Web API <br>
-    ├── 📂 ApplicationTemplate.Domain         # Domain models <br>
-    ├── 📂 ApplicationTemplate.Infrastructure # Data access (EF Core) <br>
+    &nbsp;&nbsp;&nbsp;├── 📂 ApplicationTemplate.API            # ASP.NET Core Web API <br>
+    &nbsp;&nbsp;&nbsp;├── 📂 ApplicationTemplate.Domain         # Domain models <br>
+    &nbsp;&nbsp;&nbsp;├── 📂 ApplicationTemplate.Infrastructure # Data access (EF Core) <br>
  ├── 📂 ApplicationTemplate.Tests          # NUnit test project <br>
  ├── 🗂️ ApplicationTemplate.sln <br>
 
@@ -39,6 +39,7 @@ dotnet new --install .
 ```powershell
 dotnet new MicroserviceAPI -n <YourSolutionName>
 
-in VS 
-![Alt Text](https://user-images.githubusercontent.com/yourusername/yourrepo/yourimage.png)
+#### In Visual Studio
+
+![Alt Text](https://github.com/genuinecode-git/vstemplate/blob/main/Application/VisualStudio.PNG)
 
