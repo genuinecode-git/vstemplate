@@ -12,13 +12,13 @@ This is a .NET Core solution template for a Microservice API using CQRS architec
 
 ## Project Structure
 
-📂 ApplicationTemplate
- ├── 📂 src
-    ├── 📂 ApplicationTemplate.API            # ASP.NET Core Web API
-    ├── 📂 ApplicationTemplate.Domain         # Domain models
-    ├── 📂 ApplicationTemplate.Infrastructure # Data access (EF Core)
- ├── 📂 ApplicationTemplate.Tests          # NUnit test project
- ├── 🗂️ ApplicationTemplate.sln
+📂 ApplicationTemplate <br>
+ ├── 📂 src <br>
+    ├── 📂 ApplicationTemplate.API            # ASP.NET Core Web API <br>
+    ├── 📂 ApplicationTemplate.Domain         # Domain models <br>
+    ├── 📂 ApplicationTemplate.Infrastructure # Data access (EF Core) <br>
+ ├── 📂 ApplicationTemplate.Tests          # NUnit test project <br>
+ ├── 🗂️ ApplicationTemplate.sln <br>
 
 
 ---
@@ -38,3 +38,7 @@ dotnet new --install .
 
 ```powershell
 dotnet new MicroserviceAPI -n <YourSolutionName>
+
+in VS 
+![Alt Text](https://user-images.githubusercontent.com/yourusername/yourrepo/yourimage.png)
+
