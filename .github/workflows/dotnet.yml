@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       working-directory: Application
-      run: dotnet restore ./Application/ApplicationTemplate.API.csproj
+      run: dotnet restore ApplicationTemplate.API.csproj
     - name: Build
       run: dotnet build --no-restore ./Application/ApplicationTemplate.Test.csproj
     - name: Test
