@@ -1,6 +1,3 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET
 
 on:
@@ -11,19 +8,30 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
+
+    - name: Print working directory and files (Debugging)
+      run: |
+        pwd
+        ls -R  # List all files to check project structure
+
     - name: Restore dependencies
-      working-directory: Application
-      run: ls -R
+      working-directory: Application  # Adjust if necessary
+      run: dotnet restore
+
     - name: Build
-      run: dotnet build --no-restore ./Application/ApplicationTemplate.Test.csproj
+      working-directory: Application  # Adjust if necessary
+      run: dotnet build --no-restore
+
     - name: Test
+      working-directory: Application  # Adjust if necessary
       run: dotnet test --no-build --verbosity normal
